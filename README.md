@@ -1,5 +1,3 @@
-!["wallet"](https://i.pinimg.com/originals/8c/82/4c/8c824c272c0ac73ca2303819dbc54364.png)
-
 # 001 Fintech - INFRA
 
 ## Repositórios responsável por manter as configurações de infra:
