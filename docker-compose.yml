@@ -234,6 +234,7 @@ services:
   #     service: 001-label-api
   #   depends_on: 
   #     - 001fintech-mysql
+  #     - broker
   #   networks: 
   #     - 001fintech_net
 

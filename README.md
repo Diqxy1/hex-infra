@@ -13,7 +13,8 @@ Para trabalhar nesse projeto você ira precisar instalar:
 
 ### Ambiente de desenvolvimento
 
-Após clonar o repositório verificar quais containers você deseja subir. Por padrão está habilitado o Mysql e os containers relativos ao Kafka. Caso deseja plugar alguma outro container referente a um projeto da 001Fintech você deve descomentar  a linha do serviço e alterar o path 'build:' do mesmo.
+Após clonar o repositório verificar quais containers você deseja subir. Por padrão está habilitado o Mysql e os containers relativos ao Kafka. 
+Caso deseja plugar alguma outro container referente a um projeto da 001Fintech você deve descomentar  a linha do serviço e alterar o path 'build:' do mesmo.
 
 Na primeira vez que clonar o  repositório é necessário fazer o build dos containers
 
