@@ -222,4 +222,19 @@ services:
     volumes:
       - ./mysql/volume/mysql:/var/lib/mysql
       - ./mysql/volume/data:/var/data
+    networks: 
+      - 001fintech_net
 #END MYSQL
+
+#BEGIN OO1 FINTECH LABEL API
+  # 001fintech-label-api:
+  #   container_name: 001-label-api
+  #   extends:
+  #     file: ../001-label-api/docker-compose.yml
+  #     service: 001-label-api
+  #   depends_on: 
+  #     - 001fintech-mysql
+  #   networks: 
+  #     - 001fintech_net
+
+
