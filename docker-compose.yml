@@ -1,6 +1,4 @@
-
 version: '2'
-services:
 
 networks:
   001fintech_net:
@@ -8,6 +6,8 @@ networks:
     ipam:
       config:
         - subnet: 172.13.0.1/16
+
+services:
 
 #BEGIN KAFKA
 
@@ -207,19 +207,19 @@ networks:
 #END KAFKA
 
 #BEGIN MYSQL
-001fintech-mysql:
-  container_name: genial-mysql
-  build: ./mysql/Dockerfile
-  expose:
-    - "3306"
-  ports:
-    - "43306:3306"
-  environment:
-    - MYSQL_ROOT_PASSWORD=001fintech
-    - MYSQL_DATABASE=fintech
-    - MYSQL_USER=001fintech
-    - MYSQL_PASSWORD=001fintech
-  volumes:
-    - ./volume/mysql:/var/lib/mysql
-    - ./volume/data:/var/data
+  001fintech-mysql:
+    container_name: 001fintech-mysql
+    build: ./mysql
+    expose:
+      - "3306"
+    ports:
+      - "43306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=001fintech
+      - MYSQL_DATABASE=fintech
+      - MYSQL_USER=001fintech
+      - MYSQL_PASSWORD=001fintech
+    volumes:
+      - ./mysql/volume/mysql:/var/lib/mysql
+      - ./mysql/volume/data:/var/data
 #END MYSQL
