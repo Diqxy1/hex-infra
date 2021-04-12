@@ -14,7 +14,8 @@ Para trabalhar nesse projeto você ira precisar instalar:
 ### Repositórios relacionados 
 
 *[ Label - API ](https://bitbucket.org/okpago/001-label-api)			
-*[ PAG - API ](https://bitbucket.org/okpago/001-pag-api)
+*[ Pag - API ](https://bitbucket.org/okpago/001-pag-api)
+*[ Wallet - API ](https://bitbucket.org/okpago/001-wallet-api)
 
 ### Ambiente de desenvolvimento
 
