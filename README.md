@@ -11,6 +11,11 @@ Para trabalhar nesse projeto você ira precisar instalar:
 *[ Docker ](https://www.docker.com/get-started)			
 *[ Docker Compose ](https://docs.docker.com/compose/install/)
 
+### Repositórios relacionados 
+
+*[ Label - API ](https://bitbucket.org/okpago/001-label-api)			
+*[ PAG - API ](https://bitbucket.org/okpago/001-pag-api)
+
 ### Ambiente de desenvolvimento
 
 Após clonar o repositório verificar quais containers você deseja subir. Por padrão está habilitado o Mysql e os containers relativos ao Kafka. 
@@ -22,4 +27,4 @@ Na primeira vez que clonar o  repositório é necessário fazer o build dos cont
 
 Após o build você já pode subir os containers
 
-    sudo docker-compose up -d
+    sudo docker-compose up -d 

@@ -237,5 +237,19 @@ services:
   #     - broker
   #   networks: 
   #     - 001fintech_net
+#END OO1 FINTECH LABEL API
 
+#BEGIN OO1 FINTECH PAG API
+  # 001fintech-pag-api:
+  #   container_name: 001-pag-api
+  #   extends:
+  #     file: ../001-pag-api/docker-compose.yml
+  #     service: 001-pag-api
+  #   depends_on: 
+  #     - 001fintech-mysql
+  #     - 001fintech-label-api
+  #     - broker
+  #   networks: 
+  #     - 001fintech_net
+#END OO1 FINTECH PAG API
 
