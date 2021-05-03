@@ -16,10 +16,6 @@ Para trabalhar nesse projeto você ira precisar instalar:
 *[ Label - API ](https://bitbucket.org/okpago/001-whitelabel-api)
 *[ Core Admin - API ](https://bitbucket.org/okpago/001-coreadmin-api)			
 
-
-
-
-
 ### Ambiente de desenvolvimento
 
 Após clonar o repositório verificar quais containers você deseja subir. Por padrão está habilitado o Mysql e os containers relativos ao Kafka. 
@@ -31,4 +27,4 @@ Na primeira vez que clonar o  repositório é necessário fazer o build dos cont
 
 Após o build você já pode subir os containers
 
-    sudo docker-compose up -d 
+    sudo docker-compose up -d
