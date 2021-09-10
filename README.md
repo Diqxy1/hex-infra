@@ -16,7 +16,7 @@ Para trabalhar nesse projeto você ira precisar instalar:
 Verique se rede 'core' existe no docker
     docker network ls
 
-Se a redeco 'core' ainda não existir crie-a com o seguinte comando
+Se a rede 'core' ainda não existir crie-a com o seguinte comando
     docker network create core -d bridge
 
 ### Repositórios relacionados 
