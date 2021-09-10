@@ -1,0 +1,5 @@
+mysql/volume/data/*
+!mysql/volume/data/.gitkeep
+
+mysql/volume/mysql/*
+!mysql/volume/mysql/.gitkeep
